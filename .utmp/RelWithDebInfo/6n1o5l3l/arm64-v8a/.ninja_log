@@ -1,0 +1,12 @@
+# ninja log v5
+64	2703	7554650946941329	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	10890f48dc43105d
+2716	3042	7554650950439448	D:/GTA V/proyectos de unity/michigochi2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6n1o5l3l/obj/arm64-v8a/libswappywrapper.so	16a275b6475b0f1c
+45	4434	7554650964507611	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	6089c0268d6352ac
+51	4736	7554650967422246	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	9ecaf3aad84e9328
+19	4849	7554650968660280	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	e644b76e93d384b5
+1	4871	7554650968890293	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	532b80d9aaeb93b0
+57	4905	7554650969230739	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	ea76f9301cd50dba
+14	4931	7554650969507129	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	6bf30f0617b49832
+24	5019	7554650970378876	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	978ce19eb9c5c625
+8	5071	7554650970909732	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	9e8cf863305d8efb
+5072	5228	7554650972512825	D:/GTA V/proyectos de unity/michigochi2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6n1o5l3l/obj/arm64-v8a/libgame.so	1fc1fe1049fdeb5

@@ -1,0 +1,622 @@
+fileFormatVersion: 2
+guid: f1445f4f9395a4e44b1e0f2187864b4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5454745025571779082
+    second: gatitoDurmiendo_0
+  - first:
+      213: -5302782126120402741
+    second: gatitoDurmiendo_1
+  - first:
+      213: -317659309342073670
+    second: gatitoDurmiendo_2
+  - first:
+      213: 705068053488440758
+    second: gatitoDurmiendo_3
+  - first:
+      213: 8986551016393202189
+    second: gatitoDurmiendo_4
+  - first:
+      213: 8598612956772248607
+    second: gatitoDurmiendo_5
+  - first:
+      213: -5384668097750846911
+    second: gatitoDurmiendo_6
+  - first:
+      213: 3489038533796407111
+    second: gatitoDurmiendo_7
+  - first:
+      213: -4343981500408159464
+    second: gatitoDurmiendo_8
+  - first:
+      213: 5357299480944915360
+    second: gatitoDurmiendo_9
+  - first:
+      213: 3657652989178259581
+    second: gatitoDurmiendo_10
+  - first:
+      213: -5289782892652423353
+    second: gatitoDurmiendo_11
+  - first:
+      213: 2784984920734133353
+    second: gatitoDurmiendo_12
+  - first:
+      213: -2631448355809784471
+    second: gatitoDurmiendo_13
+  - first:
+      213: 8057720218937569916
+    second: gatitoDurmiendo_14
+  - first:
+      213: 6332843649991561837
+    second: gatitoDurmiendo_15
+  - first:
+      213: -4241800399130625670
+    second: gatitoDurmiendo_16
+  - first:
+      213: 4456498495691502839
+    second: gatitoDurmiendo_17
+  - first:
+      213: 1842925790931482641
+    second: gatitoDurmiendo_18
+  - first:
+      213: -2404568100500768221
+    second: gatitoDurmiendo_19
+  - first:
+      213: -8924295943921480615
+    second: gatitoDurmiendo_20
+  - first:
+      213: -1908590234724698230
+    second: gatitoDurmiendo_21
+  - first:
+      213: 1550226232906820950
+    second: gatitoDurmiendo_22
+  - first:
+      213: 8065474047457420869
+    second: gatitoDurmiendo_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gatitoDurmiendo_0
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 925
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02f88543b523bb40800000000000000
+      internalID: 5454745025571779082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_2
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 927
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abcd11b8a82779bf0800000000000000
+      internalID: -317659309342073670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_3
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 917
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b597a6b8a7e8c900800000000000000
+      internalID: 705068053488440758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 556
+        width: 473
+        height: 468
+      alignment: 9
+      pivot: {x: 0.017616652, y: 0.106602855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ada006984a6bc70800000000000000
+      internalID: 8986551016393202189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_5
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 914
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c2b714de8645770800000000000000
+      internalID: 8598612956772248607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_7
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 556
+        width: 473
+        height: 468
+      alignment: 9
+      pivot: {x: 0.016161283, y: 0.1080737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747a59e8f0e8b6030800000000000000
+      internalID: 3489038533796407111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_8
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 916
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813ad4d37d317b3c0800000000000000
+      internalID: -4343981500408159464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 625
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78ad9bb30892c230800000000000000
+      internalID: 3657652989178259581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_11
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 627
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74793805c7ae696b0800000000000000
+      internalID: -5289782892652423353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_13
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 495
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d0c2399a73b7bd0800000000000000
+      internalID: -2631448355809784471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_14
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 476
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72b145f8d5c2df60800000000000000
+      internalID: 8057720218937569916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_15
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 452
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62d5df2fb7c2e750800000000000000
+      internalID: 6332843649991561837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_17
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 450
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f431c135c9a8dd30800000000000000
+      internalID: 4456498495691502839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 59
+        width: 515
+        height: 448
+      alignment: 9
+      pivot: {x: 0.013095189, y: 0.16254854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11870eb1e33639910800000000000000
+      internalID: 1842925790931482641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 441
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a7a637d0241aed0800000000000000
+      internalID: -2404568100500768221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_20
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 57
+        width: 457
+        height: 450
+      alignment: 9
+      pivot: {x: 0.014581125, y: 0.11782394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cc9183f18862480800000000000000
+      internalID: -8924295943921480615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 152
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d27ed9b82838510800000000000000
+      internalID: 1550226232906820950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoDurmiendo_23
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 130
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546e4d7d9e15eef60800000000000000
+      internalID: 8065474047457420869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f9e4918631aff8645920ff47b793668e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gatitoDurmiendo_0: 5454745025571779082
+      gatitoDurmiendo_1: -5302782126120402741
+      gatitoDurmiendo_10: 3657652989178259581
+      gatitoDurmiendo_11: -5289782892652423353
+      gatitoDurmiendo_12: 2784984920734133353
+      gatitoDurmiendo_13: -2631448355809784471
+      gatitoDurmiendo_14: 8057720218937569916
+      gatitoDurmiendo_15: 6332843649991561837
+      gatitoDurmiendo_16: -4241800399130625670
+      gatitoDurmiendo_17: 4456498495691502839
+      gatitoDurmiendo_18: 1842925790931482641
+      gatitoDurmiendo_19: -2404568100500768221
+      gatitoDurmiendo_2: -317659309342073670
+      gatitoDurmiendo_20: -8924295943921480615
+      gatitoDurmiendo_21: -1908590234724698230
+      gatitoDurmiendo_22: 1550226232906820950
+      gatitoDurmiendo_23: 8065474047457420869
+      gatitoDurmiendo_3: 705068053488440758
+      gatitoDurmiendo_4: 8986551016393202189
+      gatitoDurmiendo_5: 8598612956772248607
+      gatitoDurmiendo_6: -5384668097750846911
+      gatitoDurmiendo_7: 3489038533796407111
+      gatitoDurmiendo_8: -4343981500408159464
+      gatitoDurmiendo_9: 5357299480944915360
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

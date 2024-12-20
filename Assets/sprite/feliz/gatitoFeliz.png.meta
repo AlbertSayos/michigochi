@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: 04aa67c63b5f4804680ed36aea86a0f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8710968747831093649
+    second: gatitoFeliz_0
+  - first:
+      213: -1915743767532371902
+    second: gatitoFeliz_1
+  - first:
+      213: 2911393838831950733
+    second: gatitoFeliz_2
+  - first:
+      213: 4670126683433879077
+    second: gatitoFeliz_3
+  - first:
+      213: -6667615531960817058
+    second: gatitoFeliz_4
+  - first:
+      213: 7899664274102179980
+    second: gatitoFeliz_5
+  - first:
+      213: 2059718691350207506
+    second: gatitoFeliz_6
+  - first:
+      213: -771240226572006897
+    second: gatitoFeliz_7
+  - first:
+      213: 6965852349297770896
+    second: gatitoFeliz_8
+  - first:
+      213: -5006410892326383114
+    second: gatitoFeliz_9
+  - first:
+      213: -3887630645297936785
+    second: gatitoFeliz_10
+  - first:
+      213: 4690696081337389511
+    second: gatitoFeliz_11
+  - first:
+      213: -2782860536033244430
+    second: gatitoFeliz_12
+  - first:
+      213: -293484104418163359
+    second: gatitoFeliz_13
+  - first:
+      213: -5564104759486281435
+    second: gatitoFeliz_14
+  - first:
+      213: -6893788456280185715
+    second: gatitoFeliz_15
+  - first:
+      213: -5098979382275021394
+    second: gatitoFeliz_16
+  - first:
+      213: 8818740051465257184
+    second: gatitoFeliz_17
+  - first:
+      213: 434015387102929034
+    second: gatitoFeliz_18
+  - first:
+      213: -8953969140692319928
+    second: gatitoFeliz_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gatitoFeliz_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 559
+        width: 465
+        height: 399
+      alignment: 9
+      pivot: {x: 0.22155263, y: 0.93680215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb59fc9bf5285ee48a574a96a442bc2f
+      internalID: 228216035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoFeliz_1
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 564
+        width: 415
+        height: 382
+      alignment: 9
+      pivot: {x: 0.24351043, y: 0.96340466}
+      border: {x: 3, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367c9ad8132fa6c42bd5b3b0b4b81c0b
+      internalID: -728186537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoFeliz_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 106
+        width: 396
+        height: 393
+      alignment: 9
+      pivot: {x: 0.1818094, y: 0.95679086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7a68243d886aa4580085ee5d6e4ea6
+      internalID: -1037554433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoFeliz_3
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 113
+        width: 433
+        height: 394
+      alignment: 9
+      pivot: {x: 0.17561604, y: 0.9528007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535a47c1ee562294393761fd7d656daa
+      internalID: -1625554537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 42facf0d2c29bb346971fb62ea173411
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gatitoFeliz_0: 228216035
+      gatitoFeliz_1: -728186537
+      gatitoFeliz_2: -1037554433
+      gatitoFeliz_3: -1625554537
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

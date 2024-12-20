@@ -1,0 +1,45 @@
+# Archivos y carpetas de Unity generados automáticamente
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+AssetStoreTools*
+
+# Configuraciones específicas del usuario
+UserSettings/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# Archivos de IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Archivos y carpetas del sistema operativo
+.DS_Store
+Thumbs.db
+*.swp
+
+# Archivos de compilación
+*.apk
+*.unitypackage
+*.app
+*.exe
+*.dll
+*.class
+*.jar
+*.pyc
+
+# Datos específicos de Unity
+*.unitypackage
