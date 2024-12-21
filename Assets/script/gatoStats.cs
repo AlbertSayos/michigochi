@@ -3,12 +3,13 @@ using UnityEngine;
 public class GatoStats : MonoBehaviour
 {
     // Stats principales del gato
-    public float comida = 50f;
-    public float agua = 50f;
-    public float energia = 50f;
-    public float felicidad = 50f;
+    public float comida = 50f; //hambre -
+    public float agua = 50f; //sed - 
+    public float energia = 50f; //descansar +, jugar-
+    public float felicidad = 50f; //
     public float suciedad = 0f;
     public float salud = 90f;
+    public float baño = 20f;
 
     // Valores de incremento/decremento
     private float comidaAumento = 20f;
@@ -20,13 +21,6 @@ public class GatoStats : MonoBehaviour
     private float saludAumento = 20f;
     private float saludReduccionPorCritico = 5f;
 
-    // Stats principales del gato
-    public float comidaMax = 100f;
-    public float aguaMax = 100f;
-    public float energiaMax = 100f;
-    public float felicidadMax = 100f;
-    public float suciedadMax = 100f;
-    public float saludMax = 100f;
 
     // Métodos para modificar stats
     public void AumentarComida()
