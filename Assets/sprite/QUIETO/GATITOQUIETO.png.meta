@@ -1,0 +1,1534 @@
+fileFormatVersion: 2
+guid: d25fecb7e02a85e4db506bb805402d42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5921308007117449285
+    second: GATITOQUIETO_0
+  - first:
+      213: 5072856511187444055
+    second: GATITOQUIETO_1
+  - first:
+      213: 40130286254259525
+    second: GATITOQUIETO_2
+  - first:
+      213: -5789376205089312950
+    second: GATITOQUIETO_3
+  - first:
+      213: -3588443049562127028
+    second: GATITOQUIETO_4
+  - first:
+      213: 6793827424072300201
+    second: GATITOQUIETO_5
+  - first:
+      213: -4875196788009633369
+    second: GATITOQUIETO_6
+  - first:
+      213: -4314762586428046157
+    second: GATITOQUIETO_7
+  - first:
+      213: -8035004823031133105
+    second: GATITOQUIETO_8
+  - first:
+      213: -7999443702294912143
+    second: GATITOQUIETO_9
+  - first:
+      213: 9167329944977699380
+    second: GATITOQUIETO_10
+  - first:
+      213: 6900077041132492574
+    second: GATITOQUIETO_11
+  - first:
+      213: -935556618603374033
+    second: GATITOQUIETO_12
+  - first:
+      213: 2186997591338897758
+    second: GATITOQUIETO_13
+  - first:
+      213: 7764621393749048895
+    second: GATITOQUIETO_14
+  - first:
+      213: 454823062909517373
+    second: GATITOQUIETO_15
+  - first:
+      213: -9030581754649368826
+    second: GATITOQUIETO_16
+  - first:
+      213: 5265787008345431978
+    second: GATITOQUIETO_17
+  - first:
+      213: 1922006724418822831
+    second: GATITOQUIETO_18
+  - first:
+      213: -8681137543714836969
+    second: GATITOQUIETO_19
+  - first:
+      213: -5045613364814047812
+    second: GATITOQUIETO_20
+  - first:
+      213: 8114842026598600581
+    second: GATITOQUIETO_21
+  - first:
+      213: -6175564260954603861
+    second: GATITOQUIETO_22
+  - first:
+      213: 1258289136308629345
+    second: GATITOQUIETO_23
+  - first:
+      213: 4192370292263089489
+    second: GATITOQUIETO_24
+  - first:
+      213: 6633552331362463885
+    second: GATITOQUIETO_25
+  - first:
+      213: 855389924460613497
+    second: GATITOQUIETO_26
+  - first:
+      213: -6523612538725646249
+    second: GATITOQUIETO_27
+  - first:
+      213: -6424626673028838857
+    second: GATITOQUIETO_28
+  - first:
+      213: -3848010960957566231
+    second: GATITOQUIETO_29
+  - first:
+      213: 2892067212599164344
+    second: GATITOQUIETO_30
+  - first:
+      213: -5699151851801973463
+    second: GATITOQUIETO_31
+  - first:
+      213: 3695753762016432251
+    second: GATITOQUIETO_32
+  - first:
+      213: -7047503009885218405
+    second: GATITOQUIETO_33
+  - first:
+      213: -8114581899085288539
+    second: GATITOQUIETO_34
+  - first:
+      213: -2527687948082836058
+    second: GATITOQUIETO_35
+  - first:
+      213: 1940047453942947756
+    second: GATITOQUIETO_36
+  - first:
+      213: -8144999546168325952
+    second: GATITOQUIETO_37
+  - first:
+      213: -3022605532178393961
+    second: GATITOQUIETO_38
+  - first:
+      213: 5259673803710844248
+    second: GATITOQUIETO_39
+  - first:
+      213: 216323358411268115
+    second: GATITOQUIETO_40
+  - first:
+      213: -513819086974953897
+    second: GATITOQUIETO_41
+  - first:
+      213: -3980563685133628013
+    second: GATITOQUIETO_42
+  - first:
+      213: -1857994008129098761
+    second: GATITOQUIETO_43
+  - first:
+      213: 2670760407940324071
+    second: GATITOQUIETO_44
+  - first:
+      213: 6766726683022051344
+    second: GATITOQUIETO_45
+  - first:
+      213: -7997543924193324790
+    second: GATITOQUIETO_46
+  - first:
+      213: -4079320224539232047
+    second: GATITOQUIETO_47
+  - first:
+      213: 5901199867474490744
+    second: GATITOQUIETO_48
+  - first:
+      213: -3618253635344502064
+    second: GATITOQUIETO_49
+  - first:
+      213: 3203249790331421671
+    second: GATITOQUIETO_50
+  - first:
+      213: 7360982633368686295
+    second: GATITOQUIETO_51
+  - first:
+      213: -6867356273191988478
+    second: GATITOQUIETO_52
+  - first:
+      213: 5322493230601706046
+    second: GATITOQUIETO_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GATITOQUIETO_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 659
+        width: 268
+        height: 355
+      alignment: 9
+      pivot: {x: 0.43915784, y: 0.12234041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54869e19246bc2250800000000000000
+      internalID: 5921308007117449285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 656
+        width: 245
+        height: 355
+      alignment: 9
+      pivot: {x: 0.4704205, y: 0.13254721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751ead9ae18666640800000000000000
+      internalID: 5072856511187444055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_2
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 987
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d7be068429e8000800000000000000
+      internalID: 40130286254259525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_3
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 988
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f6d80d30108afa0800000000000000
+      internalID: -5789376205089312950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_4
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 659
+        width: 270
+        height: 365
+      alignment: 9
+      pivot: {x: 0.42618883, y: 0.11779601}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45412e0f0a433ec0800000000000000
+      internalID: -3588443049562127028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 972
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6f2250c06884e50800000000000000
+      internalID: 6793827424072300201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_6
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 969
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a97f88e952d75cb0800000000000000
+      internalID: -4875196788009633369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 908
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b48fc9c942ee14c0800000000000000
+      internalID: -4314762586428046157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_8
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 905
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ccdaa4faded7090800000000000000
+      internalID: -8035004823031133105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_9
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 914
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173e9fbe5544cf090800000000000000
+      internalID: -7999443702294912143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_10
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 891
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432723da306e83f70800000000000000
+      internalID: 9167329944977699380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 844
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17d78fb28ff1cf50800000000000000
+      internalID: 6900077041132492574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_12
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 841
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a51e0563c3403f0800000000000000
+      internalID: -935556618603374033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_13
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 818
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51d36cd8b6c95e10800000000000000
+      internalID: 2186997591338897758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_14
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 815
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e7fc5d40a71cb60800000000000000
+      internalID: 7764621393749048895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_15
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 811
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e706c7a2bdf4600800000000000000
+      internalID: 454823062909517373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_16
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 798
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607200f7dbdeca280800000000000000
+      internalID: -9030581754649368826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_17
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 795
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafdb4f7265d31940800000000000000
+      internalID: 5265787008345431978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_18
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 694
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa265e0cee65caa10800000000000000
+      internalID: 1922006724418822831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_19
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 658
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ee19c0667668780800000000000000
+      internalID: -8681137543714836969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_20
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 658
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb59b44a0616af9b0800000000000000
+      internalID: -5045613364814047812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_21
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 655
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f02d334d5bd9070800000000000000
+      internalID: 8114842026598600581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_22
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 655
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baef332360dfb4aa0800000000000000
+      internalID: -6175564260954603861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_23
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 658
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fa8628d47567110800000000000000
+      internalID: 1258289136308629345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_24
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 658
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155fd35919a4e2a30800000000000000
+      internalID: 4192370292263089489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_25
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 627
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80f2d503bc1f0c50800000000000000
+      internalID: 6633552331362463885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_26
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 629
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f4cefaa94fedb00800000000000000
+      internalID: 855389924460613497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_27
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 627
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75049f8a5f87775a0800000000000000
+      internalID: -6523612538725646249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_28
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 629
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73acd9b741427d6a0800000000000000
+      internalID: -6424626673028838857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_29
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 627
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2905c2b6e199ac0800000000000000
+      internalID: -3848010960957566231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_30
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 629
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdf6899ecfa22820800000000000000
+      internalID: 2892067212599164344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_31
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 627
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d6550169b88e0b0800000000000000
+      internalID: -5699151851801973463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_32
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 629
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b709d423774f94330800000000000000
+      internalID: 3695753762016432251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_33
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 563
+        width: 7
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b999b4e0a5d323e90800000000000000
+      internalID: -7047503009885218405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_34
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 268
+        width: 277
+        height: 355
+      alignment: 9
+      pivot: {x: 0.4476752, y: 0.1172365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abe43471c6336f80800000000000000
+      internalID: -8114581899085288539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_35
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 611
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad8c771439dbecd0800000000000000
+      internalID: -2527687948082836058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_36
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 277
+        width: 268
+        height: 344
+      alignment: 9
+      pivot: {x: 0.4256373, y: 0.110263824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf9bab61ee6cea10800000000000000
+      internalID: 1940047453942947756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_37
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 611
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c84bea111627fe80800000000000000
+      internalID: -8144999546168325952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_38
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 277
+        width: 249
+        height: 344
+      alignment: 9
+      pivot: {x: 0.45634368, y: 0.1155305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794506e684c8d06d0800000000000000
+      internalID: -3022605532178393961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_39
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 577
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85dcc90257d1ef840800000000000000
+      internalID: 5259673803710844248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_40
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 581
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31029b6c2f8800300800000000000000
+      internalID: 216323358411268115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_41
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 513
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756da02434c8ed8f0800000000000000
+      internalID: -513819086974953897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_42
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 501
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d4ac51b6232c8c0800000000000000
+      internalID: -3980563685133628013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_43
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 439
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb29ae2b441736e0800000000000000
+      internalID: -1857994008129098761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_44
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 441
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ead573d072701520800000000000000
+      internalID: 2670760407940324071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_45
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 441
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018cfa9011e38ed50800000000000000
+      internalID: 6766726683022051344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_46
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 437
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a019fda7c24030190800000000000000
+      internalID: -7997543924193324790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_47
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 437
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8b5437ed75367c0800000000000000
+      internalID: -4079320224539232047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_48
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 423
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8753669730645e150800000000000000
+      internalID: 5901199867474490744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_49
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 403
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2760e2d7169cdc0800000000000000
+      internalID: -3618253635344502064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_50
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 263
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e38c8776ba347c20800000000000000
+      internalID: 3203249790331421671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_51
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 263
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de82c374b6772660800000000000000
+      internalID: 7360982633368686295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_52
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 263
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2035756badf32b0a0800000000000000
+      internalID: -6867356273191988478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GATITOQUIETO_53
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 39
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a9f69b46b4dd940800000000000000
+      internalID: 5322493230601706046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: db7a5bf1806c2074185061918a31dc09
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GATITOQUIETO_0: 5921308007117449285
+      GATITOQUIETO_1: 5072856511187444055
+      GATITOQUIETO_10: 9167329944977699380
+      GATITOQUIETO_11: 6900077041132492574
+      GATITOQUIETO_12: -935556618603374033
+      GATITOQUIETO_13: 2186997591338897758
+      GATITOQUIETO_14: 7764621393749048895
+      GATITOQUIETO_15: 454823062909517373
+      GATITOQUIETO_16: -9030581754649368826
+      GATITOQUIETO_17: 5265787008345431978
+      GATITOQUIETO_18: 1922006724418822831
+      GATITOQUIETO_19: -8681137543714836969
+      GATITOQUIETO_2: 40130286254259525
+      GATITOQUIETO_20: -5045613364814047812
+      GATITOQUIETO_21: 8114842026598600581
+      GATITOQUIETO_22: -6175564260954603861
+      GATITOQUIETO_23: 1258289136308629345
+      GATITOQUIETO_24: 4192370292263089489
+      GATITOQUIETO_25: 6633552331362463885
+      GATITOQUIETO_26: 855389924460613497
+      GATITOQUIETO_27: -6523612538725646249
+      GATITOQUIETO_28: -6424626673028838857
+      GATITOQUIETO_29: -3848010960957566231
+      GATITOQUIETO_3: -5789376205089312950
+      GATITOQUIETO_30: 2892067212599164344
+      GATITOQUIETO_31: -5699151851801973463
+      GATITOQUIETO_32: 3695753762016432251
+      GATITOQUIETO_33: -7047503009885218405
+      GATITOQUIETO_34: -8114581899085288539
+      GATITOQUIETO_35: -2527687948082836058
+      GATITOQUIETO_36: 1940047453942947756
+      GATITOQUIETO_37: -8144999546168325952
+      GATITOQUIETO_38: -3022605532178393961
+      GATITOQUIETO_39: 5259673803710844248
+      GATITOQUIETO_4: -3588443049562127028
+      GATITOQUIETO_40: 216323358411268115
+      GATITOQUIETO_41: -513819086974953897
+      GATITOQUIETO_42: -3980563685133628013
+      GATITOQUIETO_43: -1857994008129098761
+      GATITOQUIETO_44: 2670760407940324071
+      GATITOQUIETO_45: 6766726683022051344
+      GATITOQUIETO_46: -7997543924193324790
+      GATITOQUIETO_47: -4079320224539232047
+      GATITOQUIETO_48: 5901199867474490744
+      GATITOQUIETO_49: -3618253635344502064
+      GATITOQUIETO_5: 6793827424072300201
+      GATITOQUIETO_50: 3203249790331421671
+      GATITOQUIETO_51: 7360982633368686295
+      GATITOQUIETO_52: -6867356273191988478
+      GATITOQUIETO_53: 5322493230601706046
+      GATITOQUIETO_6: -4875196788009633369
+      GATITOQUIETO_7: -4314762586428046157
+      GATITOQUIETO_8: -8035004823031133105
+      GATITOQUIETO_9: -7999443702294912143
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
