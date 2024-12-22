@@ -6,36 +6,31 @@ public class BotonControl : MonoBehaviour
     public GatoStats gatoStats; // Referencia al script de GatoStats
     public Animator gatoAnimator; // Referencia al Animator del gato
 
-    // Alimentar al gato +felicidad +camida 
+    // Alimentar al gato +felicidad +comida 
     public void Alimentar()
     {
         gatoStats.AumentarComida(); // Actualiza el nivel de comida
         gatoAnimator.SetTrigger("comiendo"); // Reproduce la animación de "comer"
         
-        
-        StartCoroutine(DetenerAnimacionComiendo());
+        StartCoroutine(DetenerAnimacion("comiendo", 1.5f));
     }
 
-    private IEnumerator DetenerAnimacionComiendo()
-    {
-        yield return new WaitForSeconds(0.55f);
-
-        // Detiene la animación de comer
-        gatoAnimator.SetBool("comiendo", false);
-    }
-
-    // Dar agua al gato  -sed +-energia
+    // Dar agua al gato -sed +-energia
     public void DarAgua()
     {
         gatoStats.AumentarAgua(); // Actualiza el nivel de agua
-        //gatoAnimator.SetTrigger("bebiendo"); // Reproduce la animación de "beber"
+        gatoAnimator.SetTrigger("bebiendo"); // Reproduce la animación de "beber"
+        
+        StartCoroutine(DetenerAnimacion("bebiendo", 1.5f));
     }
 
-    // Dejar al gato dormir +energia +hambre sed
+    // Dejar al gato dormir +energia +hambre +sed
     public void DejarDormir()
     {
         gatoStats.AumentarEnergia(); // Aumenta la energía
-        //gatoAnimator.SetTrigger("durmiendo"); // Reproduce la animación de "dormir"
+        gatoAnimator.SetTrigger("durmiendo"); // Reproduce la animación de "dormir"
+        
+        StartCoroutine(DetenerAnimacion("durmiendo", 1.5f));
     }
 
     // Jugar con el gato -energia
@@ -43,28 +38,36 @@ public class BotonControl : MonoBehaviour
     {
         gatoStats.AumentarFelicidad(); // Aumenta felicidad
         gatoStats.ReducirEnergia();   // Reduce energía
-        //gatoAnimator.SetTrigger("jugando"); // Reproduce la animación de "jugar"
+        gatoAnimator.SetTrigger("jugando"); // Reproduce la animación de "jugar"
+        
+        StartCoroutine(DetenerAnimacion("jugando", 1.5f));
     }
 
     // Bañar al gato -suciedad
     public void Bañar()
     {
         gatoStats.ResetearSuciedad();  // Limpia al gato
-        //gatoAnimator.SetTrigger("bañarse"); // Reproduce la animación de "bañarse"
+        gatoAnimator.SetTrigger("bañarse"); // Reproduce la animación de "bañarse"
+        
+        StartCoroutine(DetenerAnimacion("bañarse", 1.5f));
     }
 
     // Dar mimos al gato +felicidad
     public void Mimar()
     {
         gatoStats.AumentarFelicidad(); // Aumenta felicidad
-        //gatoAnimator.SetTrigger("caricias"); // Reproduce la animación de "caricias"
+        gatoAnimator.SetTrigger("caricias"); // Reproduce la animación de "caricias"
+        
+        StartCoroutine(DetenerAnimacion("caricias", 1.5f));
     }
 
-    // Curar al gato +salud +- energia +-felicidad +-comida +-suciedad
+    // Curar al gato +salud +-energia +-felicidad +-comida +-suciedad
     public void Curar()
     {
         gatoStats.Curar(); // Restaura la salud
         //gatoAnimator.SetTrigger("curandose"); // Reproduce la animación de "curarse"
+        
+        //StartCoroutine(DetenerAnimacion("curandose", 1.0f));
     }
 
     // Explorar con el gato +felicidad -energia +hambre +sed
@@ -72,12 +75,26 @@ public class BotonControl : MonoBehaviour
     {
         gatoStats.ReducirEnergia();   // Reduce energía
         gatoStats.AumentarSuciedad(); // Aumenta suciedad
-        //gatoAnimator.SetTrigger("explorando"); // Reproduce la animación de "explorar"
-    }
-
-    //La mascota hace sus necesidades -baño +felicidad -energia
-    public void irAlBaño(){
+        gatoAnimator.SetTrigger("explorando"); // Reproduce la animación de "explorar"
         
+        StartCoroutine(DetenerAnimacion("explorando", 1.5f));
     }
 
+    // La mascota hace sus necesidades -baño +felicidad -energia
+    public void IrAlBaño()
+    {
+        gatoStats.AumentarFelicidad(); // Aumenta felicidad
+        gatoStats.ReducirEnergia();   // Reduce energía
+        //gatoAnimator.SetTrigger("irAlBaño"); // Reproduce la animación de "ir al baño"
+        
+        //StartCoroutine(DetenerAnimacion("irAlBaño", 1.0f));
+    }
+
+    // Método genérico para detener animaciones después de un tiempo
+    private IEnumerator DetenerAnimacion(string triggerName, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Debug.Log("detuve: " + triggerName);
+        gatoAnimator.SetBool(triggerName, false); // Detiene la animación correspondiente
+    }
 }

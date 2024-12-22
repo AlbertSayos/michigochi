@@ -12,13 +12,13 @@ public class GatoStats : MonoBehaviour
     public float baño = 20f;
 
     // Valores de incremento/decremento
-    private float comidaAumento = 20f;
-    private float aguaAumento = 20f;
-    private float energiaAumento = 10f;
-    private float felicidadAumento = 15f;
-    private float energiaReduccion = 10f;
-    private float suciedadAumento = 10f;
-    private float saludAumento = 20f;
+    private float comidaAumento = 5f;
+    private float aguaAumento = 5f;
+    private float energiaAumento = 5f;
+    private float felicidadAumento = 5f;
+    private float energiaReduccion = 5f;
+    private float suciedadAumento = 5f;
+    private float saludAumento = 5f;
     private float saludReduccionPorCritico = 5f;
 
 
@@ -81,11 +81,49 @@ public class GatoStats : MonoBehaviour
     private void Update()
     {
         // Lógica de decremento gradual
-        comida = Mathf.Clamp(comida - Time.deltaTime, 0, 100);
-        agua = Mathf.Clamp(agua - Time.deltaTime, 0, 100);
-        energia = Mathf.Clamp(energia - (Time.deltaTime * 0.5f), 0, 100);
+        //comida = Mathf.Clamp(comida - Time.deltaTime, 0, 100);
+        //agua = Mathf.Clamp(agua - Time.deltaTime, 0, 100);
+        //energia = Mathf.Clamp(energia - (Time.deltaTime * 0.5f), 0, 100);
         
         // Verificar estados críticos
         VerificarCriticos();
     }
+
+
+    // Métodos para obtener los valores actuales
+    public float GetComida()
+    {
+        return comida;
+    }
+
+    public float GetAgua()
+    {
+        return agua;
+    }
+
+    public float GetEnergia()
+    {
+        return energia;
+    }
+
+    public float GetFelicidad()
+    {
+        return felicidad;
+    }
+
+    public float GetSuciedad()
+    {
+        return suciedad;
+    }
+
+    public float GetSalud()
+    {
+        return salud;
+    }
+
+    public float GetBaño()
+    {
+        return baño;
+    }
+
 }
