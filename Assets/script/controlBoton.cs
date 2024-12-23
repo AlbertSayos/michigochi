@@ -11,11 +11,14 @@ public class BotonControl : MonoBehaviour
     // Alimentar al gato +felicidad +comida 
     public void Alimentar()
     {
-        gatoStats.AumentarComida(); // Actualiza el nivel de comida
-        gatoStats.AumentarFelicidad();
-        gatoAnimator.SetTrigger("comiendo"); // Reproduce la animación de "comer"
+        // gatoStats.AumentarComida(); // Actualiza el nivel de comida
+        // gatoStats.AumentarFelicidad();
+
+        bool felicidadActual = gatoStats.Alimentar()
+
+        gatoAnimator.SetTrigger(felicidadActual ? "comiendo" : "rechazo"); // Reproduce la animación de "comer"
         
-        StartCoroutine(DetenerAnimacion("comiendo", 2.1f));
+        StartCoroutine(DetenerAnimacion(felicidadActual ? "comiendo" : "rechazo", 2.1f));
     }
 
     // Dar agua al gato -sed +-energia

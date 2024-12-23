@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gatitoengermo_0: -456228679624552324
+      gatitoengermo_1: 1595492864462354942
+      gatitoengermo_2: -3902273070365841673
+      gatitoengermo_3: 7271366416058320895
+      gatitoengermo_4: 2961495390786220837
+      gatitoengermo_5: -1577885242568028082
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

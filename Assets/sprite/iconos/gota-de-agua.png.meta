@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gota-de-agua_0: -653829125096212874
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

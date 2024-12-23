@@ -25,6 +25,19 @@ public class GatoStats : MonoBehaviour
 
     private float aguaReduccion = 5f;
 
+    //True 0 > comida > 100
+    // otro caso False
+    public bool Alimentar() {
+        if(comida > 0 && comida < 100){
+            AumentarComida()
+            AumentarFelicidad()
+            return true
+        }
+        else{
+            reducirFelicidad()
+            return false
+        }
+    }
 
     // Métodos para modificar stats
     public void AumentarComida()

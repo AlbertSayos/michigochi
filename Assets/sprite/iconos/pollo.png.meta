@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pollo_0: -2952463322376388517
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
