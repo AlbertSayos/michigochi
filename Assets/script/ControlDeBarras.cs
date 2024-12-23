@@ -16,6 +16,10 @@ public class ControlDeBarras : MonoBehaviour
 
     public TextMeshProUGUI textoBaño;
 
+    public TextMeshProUGUI textoSalud;
+
+    public TextMeshProUGUI textoFelicidad;
+
     private void Update()
     {
         // Sincronizar la barra de comida y su texto
@@ -29,5 +33,9 @@ public class ControlDeBarras : MonoBehaviour
 
         // Sincronizar la barra de suciedad y su texto
         textoBaño.text = $"{gatoStats.GetBaño()}";
+
+        textoFelicidad.text = $"{gatoStats.GetFelicidad()}";
+
+        textoSalud.text = $"{gatoStats.GetSalud()}";
     }
 }

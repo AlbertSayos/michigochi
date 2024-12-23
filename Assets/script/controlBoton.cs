@@ -14,7 +14,7 @@ public class BotonControl : MonoBehaviour
         // gatoStats.AumentarComida(); // Actualiza el nivel de comida
         // gatoStats.AumentarFelicidad();
 
-        bool felicidadActual = gatoStats.Alimentar()
+        bool felicidadActual = gatoStats.Alimentar();
 
         gatoAnimator.SetTrigger(felicidadActual ? "comiendo" : "rechazo"); // Reproduce la animación de "comer"
         

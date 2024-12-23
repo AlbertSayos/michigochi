@@ -12,7 +12,7 @@ public class GatoStats : MonoBehaviour
     public float baño = 20f;
 
     // Valores de incremento/decremento
-    private float comidaAumento = 5f;
+    private float comidaAumento = 15f;
     private float aguaAumento = 5f;
     private float energiaAumento = 5f;
     private float felicidadAumento = 5f;
@@ -29,13 +29,13 @@ public class GatoStats : MonoBehaviour
     // otro caso False
     public bool Alimentar() {
         if(comida > 0 && comida < 100){
-            AumentarComida()
-            AumentarFelicidad()
-            return true
+            AumentarComida();
+            AumentarFelicidad();
+            return true;
         }
         else{
-            reducirFelicidad()
-            return false
+            reducirFelicidad();
+            return false;
         }
     }
 
@@ -73,6 +73,11 @@ public class GatoStats : MonoBehaviour
     public void AumentarFelicidad()
     {
         felicidad = Mathf.Clamp(felicidad + felicidadAumento, 0, 100);
+    }
+
+    public void reducirFelicidad()
+    {
+        felicidad = Mathf.Clamp(felicidad - felicidadAumento, 0, 100);
     }
 
     public void ResetearSuciedad()

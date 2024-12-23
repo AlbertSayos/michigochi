@@ -12,4 +12,4 @@
 //salud (hambre felicidad) (suciedad)
 //enfermo = (tristesa(100-felicidad) + suciedad + hambre(100-comida))/3 = x
 //         random(0, 100) <= x
-//baño 7hs
+//baño 7hs-
