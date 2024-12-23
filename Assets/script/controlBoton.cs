@@ -95,9 +95,9 @@ public class BotonControl : MonoBehaviour
         gatoStats.AumentarFelicidad(); // Aumenta felicidad
         gatoStats.ReducirEnergia();   // Reduce energía
         gatoStats.AumentarFelicidad();
-        //gatoAnimator.SetTrigger("irAlBaño"); // Reproduce la animación de "ir al baño"
+        gatoAnimator.SetTrigger("irAlBaño"); // Reproduce la animación de "ir al baño"
         
-        //StartCoroutine(DetenerAnimacion("irAlBaño", 1.0f));
+        StartCoroutine(DetenerAnimacion("irAlBaño", 2.0f));
     }
 
     // Método genérico para detener animaciones después de un tiempo

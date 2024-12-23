@@ -25,6 +25,8 @@ public class GatoStats : MonoBehaviour
 
     private float aguaReduccion = 5f;
 
+    private float bañoReduccion = 5f;
+
     //True 0 > comida > 100
     // otro caso False
     public bool Alimentar() {
@@ -88,6 +90,16 @@ public class GatoStats : MonoBehaviour
     public void AumentarSuciedad()
     {
         suciedad = Mathf.Clamp(suciedad + suciedadAumento, 0, 100);
+    }
+
+    public void aumentarBaño()
+    {
+        suciedad = Mathf.Clamp(baño + bañoReduccion, 0, 100);
+    }
+
+    public void reducirBaño()
+    {
+        suciedad = Mathf.Clamp(baño + bañoReduccion, 0, 100);
     }
 
     public void Curar()
