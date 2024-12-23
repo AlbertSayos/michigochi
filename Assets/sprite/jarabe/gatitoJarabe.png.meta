@@ -1,0 +1,908 @@
+fileFormatVersion: 2
+guid: 47e194403d917284db48b6ce24a4b958
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4985191539854908409
+    second: gatitoJarabe_0
+  - first:
+      213: -6170975567542556017
+    second: gatitoJarabe_1
+  - first:
+      213: 7013911427610378000
+    second: gatitoJarabe_2
+  - first:
+      213: -6803734710738666027
+    second: gatitoJarabe_3
+  - first:
+      213: 4487180152925572971
+    second: gatitoJarabe_4
+  - first:
+      213: 4880542086562201661
+    second: gatitoJarabe_5
+  - first:
+      213: 5337352462734556163
+    second: gatitoJarabe_6
+  - first:
+      213: -5770758173777114823
+    second: gatitoJarabe_7
+  - first:
+      213: -1462182193496681828
+    second: gatitoJarabe_8
+  - first:
+      213: 7850234196508300289
+    second: gatitoJarabe_9
+  - first:
+      213: 779337708896308901
+    second: gatitoJarabe_10
+  - first:
+      213: 2937359781778641553
+    second: gatitoJarabe_11
+  - first:
+      213: -1029977277430469659
+    second: gatitoJarabe_12
+  - first:
+      213: 6425195982246012065
+    second: gatitoJarabe_13
+  - first:
+      213: 2164228176697271306
+    second: gatitoJarabe_14
+  - first:
+      213: 1219894851912958829
+    second: gatitoJarabe_15
+  - first:
+      213: 2411513035985718428
+    second: gatitoJarabe_16
+  - first:
+      213: 8954054800375917713
+    second: gatitoJarabe_17
+  - first:
+      213: 6768438722049283668
+    second: gatitoJarabe_18
+  - first:
+      213: -239526512691374487
+    second: gatitoJarabe_19
+  - first:
+      213: 8738241389888022288
+    second: gatitoJarabe_20
+  - first:
+      213: 7193387371906183948
+    second: gatitoJarabe_21
+  - first:
+      213: 352506501415936193
+    second: gatitoJarabe_22
+  - first:
+      213: -1686673621270498312
+    second: gatitoJarabe_23
+  - first:
+      213: -8346906464453207544
+    second: gatitoJarabe_24
+  - first:
+      213: -2811632049502590117
+    second: gatitoJarabe_25
+  - first:
+      213: 5745737426900228767
+    second: gatitoJarabe_26
+  - first:
+      213: -3261735715635799270
+    second: gatitoJarabe_27
+  - first:
+      213: 6018386557896639239
+    second: gatitoJarabe_28
+  - first:
+      213: 4780547013311087350
+    second: gatitoJarabe_29
+  - first:
+      213: 7713904641010244941
+    second: gatitoJarabe_30
+  - first:
+      213: -5815498384855244459
+    second: gatitoJarabe_31
+  - first:
+      213: 6324554771450017597
+    second: gatitoJarabe_32
+  - first:
+      213: 5637762010539532855
+    second: gatitoJarabe_33
+  - first:
+      213: 3920934583455389582
+    second: gatitoJarabe_34
+  - first:
+      213: 440904211968100197
+    second: gatitoJarabe_35
+  - first:
+      213: -6573095666773076745
+    second: gatitoJarabe_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gatitoJarabe_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1004
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb9556fa45fe2540800000000000000
+      internalID: 4985191539854908409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1006
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ae203aa6a4c5aa0800000000000000
+      internalID: -6170975567542556017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_2
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 556
+        width: 485
+        height: 467
+      alignment: 9
+      pivot: {x: 0.5511256, y: 0.053642977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ff4c8384b665160800000000000000
+      internalID: 7013911427610378000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 520
+        width: 469
+        height: 504
+      alignment: 9
+      pivot: {x: 0.5433856, y: 0.17750658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd3d6c04574491a0800000000000000
+      internalID: -6803734710738666027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_4
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 705
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fcf42339aa54e30800000000000000
+      internalID: 4487180152925572971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_6
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 623
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c795e49c5121a40800000000000000
+      internalID: 5337352462734556163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_9
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 558
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104508ec862a1fc60800000000000000
+      internalID: 7850234196508300289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_12
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 485
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb680c8f19c4b1f0800000000000000
+      internalID: -1029977277430469659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_13
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 73
+        width: 483
+        height: 435
+      alignment: 9
+      pivot: {x: 0.508195, y: 0.054138903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a46a0624b1ea2950800000000000000
+      internalID: 6425195982246012065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_14
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 52
+        width: 420
+        height: 425
+      alignment: 9
+      pivot: {x: 0.46176216, y: 0.06359594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04aee46f02e80e10800000000000000
+      internalID: 2164228176697271306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_15
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 428
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63899f87efede010800000000000000
+      internalID: 1219894851912958829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_17
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 370
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ca9cb7661334c70800000000000000
+      internalID: 8954054800375917713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_18
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 348
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4561fbf28235eed50800000000000000
+      internalID: 6768438722049283668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_19
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 268
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9661eb0e7e70dacf0800000000000000
+      internalID: -239526512691374487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_20
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 236
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01724e53f38744970800000000000000
+      internalID: 8738241389888022288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 8
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0a9ed9bca54e400800000000000000
+      internalID: 352506501415936193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_23
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 210
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f37620274bb798e0800000000000000
+      internalID: -1686673621270498312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_24
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 208
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80adadc5bc4d92c80800000000000000
+      internalID: -8346906464453207544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_25
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 194
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b6b423c831bf8d0800000000000000
+      internalID: -2811632049502590117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_26
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 171
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a1e0f5fb5fcbf40800000000000000
+      internalID: 5745737426900228767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_27
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 142
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bd256e5acfbb2d0800000000000000
+      internalID: -3261735715635799270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_29
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 104
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f246702e2ae75240800000000000000
+      internalID: 4780547013311087350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_30
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 126
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d17a6a66b4d0b60800000000000000
+      internalID: 7713904641010244941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_31
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 66
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55168d2e7033b4fa0800000000000000
+      internalID: -5815498384855244459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_32
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 66
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37b7c24e0555c750800000000000000
+      internalID: 6324554771450017597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_33
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732a66eadaa5d3e40800000000000000
+      internalID: 5637762010539532855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_34
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 47
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87176aca35f96630800000000000000
+      internalID: 3920934583455389582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_35
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 47
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56705567b086e1600800000000000000
+      internalID: 440904211968100197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gatitoJarabe_36
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4d45b115ca7c4a0800000000000000
+      internalID: -6573095666773076745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0555de74c0def7443b76d201d50344a6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gatitoJarabe_0: 4985191539854908409
+      gatitoJarabe_1: -6170975567542556017
+      gatitoJarabe_12: -1029977277430469659
+      gatitoJarabe_13: 6425195982246012065
+      gatitoJarabe_14: 2164228176697271306
+      gatitoJarabe_15: 1219894851912958829
+      gatitoJarabe_17: 8954054800375917713
+      gatitoJarabe_18: 6768438722049283668
+      gatitoJarabe_19: -239526512691374487
+      gatitoJarabe_2: 7013911427610378000
+      gatitoJarabe_20: 8738241389888022288
+      gatitoJarabe_22: 352506501415936193
+      gatitoJarabe_23: -1686673621270498312
+      gatitoJarabe_24: -8346906464453207544
+      gatitoJarabe_25: -2811632049502590117
+      gatitoJarabe_26: 5745737426900228767
+      gatitoJarabe_27: -3261735715635799270
+      gatitoJarabe_29: 4780547013311087350
+      gatitoJarabe_3: -6803734710738666027
+      gatitoJarabe_30: 7713904641010244941
+      gatitoJarabe_31: -5815498384855244459
+      gatitoJarabe_32: 6324554771450017597
+      gatitoJarabe_33: 5637762010539532855
+      gatitoJarabe_34: 3920934583455389582
+      gatitoJarabe_35: 440904211968100197
+      gatitoJarabe_36: -6573095666773076745
+      gatitoJarabe_4: 4487180152925572971
+      gatitoJarabe_6: 5337352462734556163
+      gatitoJarabe_9: 7850234196508300289
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -72,9 +72,9 @@ public class BotonControl : MonoBehaviour
     public void Curar()
     {
         gatoStats.Curar(); // Restaura la salud
-        //gatoAnimator.SetTrigger("curandose"); // Reproduce la animación de "curarse"
+        gatoAnimator.SetTrigger("curandose"); // Reproduce la animación de "curarse"
         
-        //StartCoroutine(DetenerAnimacion("curandose", 1.0f));
+        StartCoroutine(DetenerAnimacion("curandose", 2.1f));
     }
 
     // Explorar con el gato +felicidad -energia +hambre +sed
