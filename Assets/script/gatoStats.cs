@@ -21,6 +21,10 @@ public class GatoStats : MonoBehaviour
     private float saludAumento = 5f;
     private float saludReduccionPorCritico = 5f;
 
+    private float comidaReduccion = 5f;
+
+    private float aguaReduccion = 5f;
+
 
     // Métodos para modificar stats
     public void AumentarComida()
@@ -28,9 +32,19 @@ public class GatoStats : MonoBehaviour
         comida = Mathf.Clamp(comida + comidaAumento, 0, 100);
     }
 
+    public void reducirComida()
+    {
+        comida = Mathf.Clamp(comida - comidaReduccion, 0, 100);
+    }
+
     public void AumentarAgua()
     {
-        agua = Mathf.Clamp(agua + aguaAumento, 0, 100);
+        agua = Mathf.Clamp(agua + aguaReduccion, 0, 100);
+    }
+
+    public void reducirAgua()
+    {
+        agua = Mathf.Clamp(agua - aguaAumento, 0, 100);
     }
 
     public void AumentarEnergia()

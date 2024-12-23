@@ -4,12 +4,12 @@
 //100   60 
 
 
-//comida -5hs
-//agua -5hs
+//comida -5f hs
+//agua -5f hs
 //energia despierto- dormido+
-//felicidad 
-//suciedad suma geometrica
+//felicidad -5f hs
+//suciedad 5f hs
 //salud (hambre felicidad) (suciedad)
-//salud >= -(tristesa + suciedad + hambre)
-//         100 100 100 // 0 0 0
-//baño suma geometrica
+//enfermo = (tristesa(100-felicidad) + suciedad + hambre(100-comida))/3 = x
+//         random(0, 100) <= x
+//baño 7hs
