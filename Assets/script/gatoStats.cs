@@ -1,11 +1,12 @@
 using UnityEngine;
+using System;
 
 public class GatoStats : MonoBehaviour
 {
     // Stats principales del gato
-    public float comida = 50f; //hambre -
+    public float comida = 50f; //hambre - 
     public float agua = 50f; //sed - 
-    public float energia = 50f; //descansar +, jugar-
+    public float energia = 50f; //descansar +, jugar- 
     public float felicidad = 50f; //
     public float suciedad = 0f;
     public float salud = 90f;
@@ -20,22 +21,36 @@ public class GatoStats : MonoBehaviour
     private float suciedadAumento = 5f;
     private float saludAumento = 5f;
     private float saludReduccionPorCritico = 5f;
-
     private float comidaReduccion = 5f;
-
     private float aguaReduccion = 5f;
-
     private float bañoReduccion = 5f;
 
-    //True 0 > comida > 100
-    // otro caso False
-    public bool Alimentar() {
-        if(comida > 0 && comida < 100){
+    // Para almacenar la última hora
+    private string ultimaHora = ""; // Guardará la última hora de juego
+
+    private void Start()
+    {
+        // Si no hay una hora guardada en el sistema, se actualiza con la hora actual
+        if (string.IsNullOrEmpty(ultimaHora))
+        {
+            ultimaHora = DateTime.Now.ToString(); // Asigna la hora actual si no hay una guardada
+        }
+    }
+
+
+    // Métodos para modificar stats
+    public bool Alimentar()
+    {
+        if (comida > 0 && comida < 100)
+        {
             AumentarComida();
             AumentarFelicidad();
+            // Actualizar la hora cada vez que alimentamos al gato
+            ultimaHora = DateTime.Now.ToString();
             return true;
         }
-        else{
+        else
+        {
             reducirFelicidad();
             return false;
         }
@@ -99,7 +114,7 @@ public class GatoStats : MonoBehaviour
 
     public void reducirBaño()
     {
-        suciedad = Mathf.Clamp(baño + bañoReduccion, 0, 100);
+        suciedad = Mathf.Clamp(0, 0, 100);
     }
 
     public void Curar()
@@ -124,15 +139,9 @@ public class GatoStats : MonoBehaviour
     // Método de actualización para disminuir valores con el tiempo
     private void Update()
     {
-        // Lógica de decremento gradual
-        //comida = Mathf.Clamp(comida - Time.deltaTime, 0, 100);
-        //agua = Mathf.Clamp(agua - Time.deltaTime, 0, 100);
-        //energia = Mathf.Clamp(energia - (Time.deltaTime * 0.5f), 0, 100);
-        
         // Verificar estados críticos
         VerificarCriticos();
     }
-
 
     // Métodos para obtener los valores actuales
     public float GetComida()
@@ -168,6 +177,53 @@ public class GatoStats : MonoBehaviour
     public float GetBaño()
     {
         return baño;
+    }
+
+    // Método para obtener la última hora
+    public string GetUltimaHora()
+    {
+        return ultimaHora;
+    }
+
+    // Método para establecer la última hora
+    public void SetUltimaHora(string nuevaHora)
+    {
+        ultimaHora = nuevaHora;
+    }
+
+    public void SetComida(float nuevaComida)
+    {
+        comida = nuevaComida;
+    }
+
+    public void SetAgua(float nuevaAgua)
+    {
+        agua = nuevaAgua;
+    }
+
+    public void SetEnergia(float nuevaEnergia)
+    {
+        energia = nuevaEnergia;
+    }
+
+    public void SetFelicidad(float nuevaFelicidad)
+    {
+        felicidad = nuevaFelicidad;
+    }
+
+    public void SetSuciedad(float nuevaSuciedad)
+    {
+        suciedad = nuevaSuciedad;
+    }
+
+    public void SetSalud(float nuevaSalud)
+    {
+        salud = nuevaSalud;
+    }
+
+    public void SetBaño(float nuevoBaño)
+    {
+        baño = nuevoBaño;
     }
 
 }

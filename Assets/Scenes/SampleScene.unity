@@ -2498,13 +2498,13 @@ GameObject:
   - component: {fileID: 1443020673}
   - component: {fileID: 1443020672}
   - component: {fileID: 1443020671}
-  - component: {fileID: 1443020670}
-  - component: {fileID: 1443020675}
   - component: {fileID: 1443020674}
   - component: {fileID: 1443020677}
   - component: {fileID: 1443020676}
   - component: {fileID: 1443020678}
   - component: {fileID: 1443020679}
+  - component: {fileID: 1443020681}
+  - component: {fileID: 1443020680}
   m_Layer: 0
   m_Name: michiquieto_0
   m_TagString: Untagged
@@ -2512,22 +2512,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1443020670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443020669}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aab4f541fad5c0242ad9e723fcec3318, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  happySprite: {fileID: -1770178114323723935, guid: af716ce2983b95540b115961a18e9ee4, type: 3}
-  normalSprite: {fileID: 6831900142885195176, guid: f4a027becd29c8d418956f093ab23d04, type: 3}
-  happinessBar: {fileID: 0}
-  happiness: 10
 --- !u!65 &1443020671
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2641,22 +2625,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1443020675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443020669}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 662a3d204c91ba64baf8c61d1bca3f34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1443020674}
-  comidaActual: 20
-  comidaMaxima: 100
-  duracionAnimacion: 0.55
 --- !u!114 &1443020676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2724,6 +2692,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sistemaDeParticulas: {fileID: 1671464649}
   gatoStats: {fileID: 1443020677}
+--- !u!114 &1443020680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443020669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5eb30906f6e16044a682dbe1fd5127c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1443020681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443020669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d05c9091b0474a40849707583a30ee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gatoStats: {fileID: 1443020677}
+  sistemaGuardado: {fileID: 1443020680}
+  intervaloGuardado: 60
 --- !u!1 &1590973695
 GameObject:
   m_ObjectHideFlags: 0
