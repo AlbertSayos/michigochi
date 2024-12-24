@@ -5,6 +5,7 @@ using TMPro; // Para usar TextMeshPro
 public class ControlDeBarras : MonoBehaviour
 {
     // Referencia al script GatoStats
+    
     public GatoStats gatoStats;
 
     // Referencias a los elementos de la UI

@@ -69,6 +69,16 @@ public class ControlDeJuego : MonoBehaviour
     // Guardar datos cuando el juego se cierra
     private void OnApplicationQuit()
     {
-        GuardarEstados();  // Guardamos cuando el jugador cierra el juego
+        GuardarEstados(); // Guarda los datos antes de salir
+        Debug.Log("Datos guardados al cerrar la aplicación.");
+    }
+
+    private void OnApplicationPause(bool isPaused)
+    {
+        if (isPaused)
+        {
+            GuardarEstados(); // Guarda los datos cuando la app se pausa
+            Debug.Log("Datos guardados al pausar la aplicación.");
+        }
     }
 }

@@ -2,7 +2,9 @@ using UnityEngine;
 using System;
 
 public class GatoStats : MonoBehaviour
-{
+{   
+    public SistemaGuardado sistemaGuardado; // Referencia al sistema de guardado
+
     // Stats principales del gato
     public float comida = 50f; //hambre - 
     public float agua = 50f; //sed - 
@@ -10,16 +12,18 @@ public class GatoStats : MonoBehaviour
     public float felicidad = 50f; //
     public float suciedad = 0f;
     public float salud = 90f;
+
+    public float saludMax = 100;
     public float baño = 20f;
 
     // Valores de incremento/decremento
     private float comidaAumento = 15f;
-    private float aguaAumento = 5f;
-    private float energiaAumento = 5f;
+    private float aguaAumento = 15f;
+    private float energiaAumento = 20f;
     private float felicidadAumento = 5f;
     private float energiaReduccion = 5f;
-    private float suciedadAumento = 5f;
-    private float saludAumento = 5f;
+    private float suciedadAumento = 15f;
+    private float saludAumento = 30f;
     private float saludReduccionPorCritico = 5f;
     private float comidaReduccion = 5f;
     private float aguaReduccion = 5f;
@@ -41,20 +45,121 @@ public class GatoStats : MonoBehaviour
     // Métodos para modificar stats
     public bool Alimentar()
     {
-        if (comida > 0 && comida < 100)
+        if (comida < 100)
         {
             AumentarComida();
             AumentarFelicidad();
+            aumentarBaño();
             // Actualizar la hora cada vez que alimentamos al gato
             ultimaHora = DateTime.Now.ToString();
+            Guardar();
             return true;
         }
         else
         {
             reducirFelicidad();
+            ultimaHora = DateTime.Now.ToString();
+            Guardar();
             return false;
         }
     }
+
+    public bool darAgua(){
+        if(agua < 100){
+            AumentarAgua();
+            ReducirEnergia();
+            ultimaHora = DateTime.Now.ToString();
+            Guardar();
+            return true;
+        }
+        else
+        {
+            reducirFelicidad();
+            ultimaHora = DateTime.Now.ToString();
+            Guardar();
+            return false;
+        }
+    }
+
+    public bool irAdormir(){
+        if(energia < 100){
+            AumentarEnergia();
+            ultimaHora = DateTime.Now.ToString();
+            Guardar();
+            return true;
+        }
+        else
+        {
+            reducirFelicidad();            
+            ultimaHora = DateTime.Now.ToString();
+            Guardar();
+            return false;
+        }
+    }
+
+    public bool Jugar(){
+        AumentarFelicidad(); // Aumenta felicidad
+        ReducirEnergia();
+        ultimaHora = DateTime.Now.ToString();
+        Guardar();
+        return true;
+    }
+
+    public bool limpiar(){
+        if(suciedad == 0){
+            return false;
+        }
+        ResetearSuciedad();  // Limpia al gato
+        
+        ultimaHora = DateTime.Now.ToString();
+        Guardar();
+        return true;
+    }
+
+    public bool curar(){
+        if(salud < 50){
+            Curar();
+            ultimaHora = DateTime.Now.ToString();
+            Guardar();
+            return true;
+        }else{
+            reducirFelicidad();            
+            ultimaHora = DateTime.Now.ToString();
+            Guardar();
+            return false;
+        }
+
+    }
+
+    public bool explorar(){
+        ReducirEnergia();   // Reduce energía
+        AumentarSuciedad(); // Aumenta suciedad
+        reducirAgua();
+        reducirComida();
+        AumentarFelicidad();
+        AumentarFelicidad();
+        ultimaHora = DateTime.Now.ToString();
+        Guardar();
+        return true;
+    }
+    public bool IrAlBaño(){
+        if(baño > 0){
+            reducirBaño(); // Aumenta felicidad
+            ReducirEnergia();   // Reduce energía
+            AumentarFelicidad();
+            ultimaHora = DateTime.Now.ToString();
+            Guardar();
+            return true;
+        }
+        else{
+            reducirFelicidad();
+            ultimaHora = DateTime.Now.ToString();
+            Guardar();
+            return false;
+        }
+    }
+
+
 
     // Métodos para modificar stats
     public void AumentarComida()
@@ -69,12 +174,12 @@ public class GatoStats : MonoBehaviour
 
     public void AumentarAgua()
     {
-        agua = Mathf.Clamp(agua + aguaReduccion, 0, 100);
+        agua = Mathf.Clamp(agua + aguaAumento, 0, 100);
     }
 
     public void reducirAgua()
     {
-        agua = Mathf.Clamp(agua - aguaAumento, 0, 100);
+        agua = Mathf.Clamp(agua - aguaReduccion, 0, 100);
     }
 
     public void AumentarEnergia()
@@ -109,12 +214,12 @@ public class GatoStats : MonoBehaviour
 
     public void aumentarBaño()
     {
-        suciedad = Mathf.Clamp(baño + bañoReduccion, 0, 100);
+        baño = Mathf.Clamp(baño + bañoReduccion, 0, 100);
     }
 
     public void reducirBaño()
     {
-        suciedad = Mathf.Clamp(0, 0, 100);
+        baño = 0;
     }
 
     public void Curar()
@@ -125,15 +230,12 @@ public class GatoStats : MonoBehaviour
     // Método para aplicar penalización si un stat crítico está en 0
     public void VerificarCriticos()
     {
-        if (comida <= 0 || agua <= 0 || suciedad >= 100)
-        {
-            ReducirSaludPorCritico();
-        }
+        salud = (int)(saludMax - ((100- comida)+suciedad+(100-felicidad))/3);
     }
 
     private void ReducirSaludPorCritico()
     {
-        salud = Mathf.Clamp(salud - saludReduccionPorCritico, 0, 100);
+        salud = Mathf.Clamp(saludMax - saludReduccionPorCritico, 0, 100);
     }
 
     // Método de actualización para disminuir valores con el tiempo
@@ -224,6 +326,15 @@ public class GatoStats : MonoBehaviour
     public void SetBaño(float nuevoBaño)
     {
         baño = nuevoBaño;
+    }
+
+    private void Guardar()
+    {
+        if (sistemaGuardado != null)
+        {
+            sistemaGuardado.GuardarDatos(this);
+            Debug.Log("Datos guardados tras modificación de stats.");
+        }
     }
 
 }
